@@ -23,3 +23,10 @@ Gumroad:
 https://5056721140525.gumroad.com/l/jetson-3d-glb-effects
 
 This is an Early Access developer source code kit, not a polished one-click consumer application.
+
+
+## Current AI-to-Effect Mapping
+| Detection Result | 3D Effect | Matrix Action |
+|---|---|---|
+| person | Ice Freeze | Defensive / frozen motion |
+| cell phone | Fire Burst | Energy / fire motion |
