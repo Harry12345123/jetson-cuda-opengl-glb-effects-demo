@@ -20,7 +20,7 @@ jetson-cuda-opengl-glb-effects-demo/
     ├── gesture_fist.png
     ├── Fire.png
     ├── hud_system.jpg
-    └── system_architecture.png
+    └── system_architecture_detailed.png
 ```
 
 由于本文档位于 `docs/` 文件夹中，所以引用 `assets/` 中的图片时，需要使用相对路径：
@@ -35,7 +35,7 @@ jetson-cuda-opengl-glb-effects-demo/
 | 握拳识别截图 | `fist.jpg` | 展示 `left_fist` 识别效果 |
 | CUDA / OpenGL 特效截图 | `Fire.png` | 展示火焰视觉效果 |
 | HP / 游戏系统截图 | `hud_system.jpg` | 展示 HP、攻击、HUD、游戏逻辑反馈 |
-| 系统架构图 | `system_architecture.png` | 展示摄像头、TensorRT、CUDA、OpenGL、多线程结构 |
+| 系统架构图 | `system_architecture_detailed.png` | 展示摄像头、TensorRT、CUDA、OpenGL、多线程结构 |
 
 截图文件名建议使用英文，不建议使用中文文件名，这样在 GitHub 上更加稳定。
 
