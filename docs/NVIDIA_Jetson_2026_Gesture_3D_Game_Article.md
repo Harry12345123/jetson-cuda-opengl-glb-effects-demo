@@ -187,7 +187,7 @@ OpenGL GLB Rendering
 
 系统架构图：
 
-![System Architecture](../assets/system_architecture.png)
+![System Architecture](../assets/system_architecture_detailed.png)
 
 这种结构让 AI 推理、CUDA 动作、游戏逻辑和 OpenGL 渲染不会互相阻塞。
 
@@ -541,12 +541,12 @@ Early Access 工程包当前包含：
 - HP / 攻击 / 手势触发等基础游戏逻辑
 - 基础运行说明和部署参考
 
-当前 Gumroad 上线版本价格为 **29.9 美元**。
+当前 Gumroad 上线版本价格为 **29.9 美元**。Link是: https://5056721140525.gumroad.com/l/jetson-gesture-3d-game
 
 Gumroad Early Access Link:
 
 ```text
-你的 Gumroad 链接
+https://5056721140525.gumroad.com/l/jetson-3d-glb-effects
 ```
 
 说明：当前 Gumroad 版本仍属于 Early Access 阶段，后续版本会继续加入更多游戏系统、更完整的 HUD 面板、武器系统、怪物系统、更多手势动作、碰撞系统和 AI 交互能力。
