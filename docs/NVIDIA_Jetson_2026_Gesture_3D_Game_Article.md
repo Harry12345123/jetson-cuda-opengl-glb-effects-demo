@@ -15,25 +15,16 @@ jetson-cuda-opengl-glb-effects-demo/
 ├── docs/
 │   └── NVIDIA_Jetson_2026_Gesture_3D_Game_Article.md
 └── assets/
-    ├── demo_preview.png
-    ├── gesture_open_palm.png
+    ├── Gesture_3D_Fire.png
+    ├── palm.png
     ├── gesture_fist.png
-    ├── cuda_opengl_effects.png
-    ├── game_hud_hp.png
+    ├── Fire.png
+    ├── hud_system.jpg
     └── system_architecture.png
 ```
 
 由于本文档位于 `docs/` 文件夹中，所以引用 `assets/` 中的图片时，需要使用相对路径：
 
-```markdown
-![图片说明](../assets/图片文件名.png)
-```
-
-例如：
-
-```markdown
-![Jetson Gesture 3D Game Demo](../assets/demo_preview.png)
-```
 
 建议至少添加以下 4 类截图：
 
@@ -672,14 +663,14 @@ https://github.com/Harry12345123/jetson-cuda-opengl-glb-effects-demo
 Demo Video:
 
 ```text
-YouTube: 你的 YouTube 视频链接
-Bilibili: 你的 B站 视频链接
+YouTube: https://www.youtube.com/watch?v=fHLg0x8AsBM
+Bilibili: https://www.bilibili.com/video/BV1guTy6hEgY/?spm_id_from=333.1387.homepage.video_card.click
 ```
 
 Gumroad Early Access:
 
 ```text
-你的 Gumroad 链接
+https://5056721140525.gumroad.com/l/jetson-3d-glb-effects
 ```
 
 ---
