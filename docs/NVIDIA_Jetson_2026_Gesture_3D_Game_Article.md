@@ -39,11 +39,11 @@ jetson-cuda-opengl-glb-effects-demo/
 
 | 截图名称 | 推荐文件名 | 说明 |
 |---|---|---|
-| Demo 主视觉截图 | `demo_preview.png` | 展示 3D 游戏画面、手势识别、特效和 HUD |
-| 张开手掌识别截图 | `palm.png` | 展示 `left_open_palm` 识别效果 |
-| 握拳识别截图 | `fist.png` | 展示 `left_fist` 识别效果 |
-| CUDA / OpenGL 特效截图 | `cuda_opengl_effects.png` | 展示火焰、冰霜、矩阵、能量等视觉效果 |
-| HP / 游戏系统截图 | `game_hud_hp.png` | 展示 HP、攻击、HUD、游戏逻辑反馈 |
+| Demo 主视觉截图 | `Gesture_3D_Fire.png` | 展示 3D 游戏画面、手势识别、特效和 HUD |
+| 张开手掌识别截图 | `palm.jpg` | 展示 `left_open_palm` 识别效果 |
+| 握拳识别截图 | `fist.jpg` | 展示 `left_fist` 识别效果 |
+| CUDA / OpenGL 特效截图 | `Fire.png` | 展示火焰视觉效果 |
+| HP / 游戏系统截图 | `hud_system.jpg` | 展示 HP、攻击、HUD、游戏逻辑反馈 |
 | 系统架构图 | `system_architecture.png` | 展示摄像头、TensorRT、CUDA、OpenGL、多线程结构 |
 
 截图文件名建议使用英文，不建议使用中文文件名，这样在 GitHub 上更加稳定。
@@ -69,7 +69,7 @@ jetson-cuda-opengl-glb-effects-demo/
 
 ![Jetson Gesture 3D Game Demo](../assets/Gesture_3D_Fire.png)
 
-> 如果当前仓库还没有上传截图，可以先保留这行图片引用。上传 `assets/demo_preview.png` 后，GitHub 会自动显示图片。
+
 
 ---
 
@@ -314,7 +314,7 @@ Zero HP Matrix
 
 CUDA / OpenGL 特效效果示例：
 
-![CUDA OpenGL Visual Effects](../assets/cuda_opengl_effects.png)
+![CUDA OpenGL Visual Effects](../assets/Fire.png)
 
 这让 3D 模型不再只是静态显示，而是拥有由 AI 驱动的动态表现。
 
@@ -433,7 +433,7 @@ OpenGL renders final collapse / reset effect
 
 游戏 HUD 与 HP 系统效果示例：
 
-![Game HUD and HP System](../assets/game_hud_hp.png)
+![Game HUD and HP System](../assets/hud_system.jpg)
 
 这种设计使 Demo 更接近一个真正的游戏系统，而不仅是一个视觉识别展示。
 
@@ -458,8 +458,8 @@ OpenGL renders final collapse / reset effect
 Demo 视频链接：
 
 ```text
-YouTube: 你的 YouTube 视频链接
-Bilibili: 你的 B站 视频链接
+YouTube: https://www.youtube.com/watch?v=fHLg0x8AsBM
+Bilibili: https://www.bilibili.com/video/BV1guTy6hEgY/?spm_id_from=333.1387.homepage.video_card.click
 ```
 
 这里建议放 2 到 4 张最有视觉冲击力的游戏截图。截图应尽量包含识别框、3D 模型、HUD、特效和游戏状态。
@@ -469,9 +469,9 @@ Bilibili: 你的 B站 视频链接
 ```markdown
 ![Demo Preview](../assets/Gesture_3D_Fire.png)
 
-![CUDA OpenGL Effects](../assets/cuda_opengl_effects.png)
+![CUDA OpenGL Effects](../assets/Fire.png)
 
-![Game HUD HP](../assets/game_hud_hp.png)
+![Game HUD HP](../assets/hud_system.jpg)
 ```
 
 ---
